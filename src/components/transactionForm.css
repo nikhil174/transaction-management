@@ -1,0 +1,43 @@
+.form_container {
+    margin: 72px 20px 0 50px;
+    flex: 0.3;
+}
+
+form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form_input_container {
+    margin-bottom: 10px;
+}
+
+.form_btn_container {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
